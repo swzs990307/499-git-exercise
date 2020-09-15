@@ -10,6 +10,17 @@ public class aa11 {
 		System.out.print("Enter a positive integer: ");
 		int x = abc.nextInt();
 		
+		if(!(x>0)) {
+			System.out.print("Try a positive integer");
+		}else if(x%2==0) {
+			x*=x;
+			System.out.print("even number " + "\n");
+			System.out.print("Square of x: "+ x);
+		}else {
+			x*=x;
+			System.out.print("odd number "+ "\n");
+			System.out.print("Square of x: "+ x);
+		}
 		
 		
 		
