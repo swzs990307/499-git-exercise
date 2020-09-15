@@ -27,7 +27,7 @@ public class aa11 {
 		//system allows users entering inputs and giving the results for the positive integer.
 		
 		   
-		
+		// system knows the number is even or odd and has the square of the x showing in the console.
 		
 		
 		abc.close();
